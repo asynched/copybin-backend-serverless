@@ -1,0 +1,7 @@
+**/node_modules
+**/.vercel
+
+# Keep environment variables out of version control
+.env
+*.sqlite3
+*.sqlite3-journal

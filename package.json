@@ -1,0 +1,13 @@
+{
+  "name": "copybin-serverless-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/node": "^1.12.1",
+    "prisma": "3.0.1"
+  },
+  "dependencies": {
+    "@prisma/client": "3.0.1"
+  }
+}
