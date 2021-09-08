@@ -1,5 +1,5 @@
 import { VercelRequestContext } from '../lib/types'
-import { PrismaClient } from '.prisma/client'
+import { PrismaClient } from '@prisma/client'
 
 const client = new PrismaClient()
 

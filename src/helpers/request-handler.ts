@@ -1,7 +1,7 @@
 import { VercelApiHandler } from '@vercel/node'
-import { ControllerCallback, iHTTPController } from '../lib/types'
-import { routeNotFoundFallback } from '@controllers/fallback'
+import { ControllerCallback, iHTTPController } from '@lib/types/index'
 import { KeyOfType } from '@lib/types/lang'
+import { routeNotFoundFallback } from '@controllers/fallback'
 
 export const makeRequestHandler = (
   controller: iHTTPController,
